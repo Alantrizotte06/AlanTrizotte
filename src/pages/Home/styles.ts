@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 const slideIn = keyframes`
   from {
-    transform: translateX(-200px);
+    transform: translateX(-50px);
     opacity: 0;
   }
   to {
@@ -21,7 +21,7 @@ export const HomeContainer = styled.main`
 `;
 
 export const PersonalPresentation = styled.div`
-  color: ${(props) => props.theme["blue-200"]};
+  color: ${(props) => props.theme["blue-400"]};
   line-height: 3.5rem;
   font-weight: bold;
   font-size: 2.4rem;

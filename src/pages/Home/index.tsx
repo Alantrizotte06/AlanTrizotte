@@ -13,10 +13,12 @@ import {
   PersonalPresentation,
   SkillsImg,
 } from "./styles";
+import { Profile } from "../../components/Profile";
 
 export function Home() {
   return (
     <HomeContainer>
+      <Profile />
       <PersonalPresentation>
         <p>Olá,</p>
         <p>Eu sou Alan,</p>
@@ -36,7 +38,7 @@ export function Home() {
           <Atom size={46} />
         </SkillsImg>
         <p>
-          Também possuo conhecimento academico nas seguintes linguagens de
+          Também possuo conhecimento acadêmico nas seguintes linguagens de
           programação: C#, Java e MySql.
         </p>
         <SkillsImg>
