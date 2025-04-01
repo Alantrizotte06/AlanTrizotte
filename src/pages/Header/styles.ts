@@ -26,6 +26,8 @@ export const HeaderContainer = styled.header`
 
       &:hover {
         color: ${(props) => props.theme["blue-400"]};
+        transition: all 0.5s;
+        border-bottom: 3px solid ${(props) => props.theme["blue-400"]};
       }
 
       &.active {
