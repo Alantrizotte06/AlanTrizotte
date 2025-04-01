@@ -6,6 +6,7 @@ export const ProfileContainer = styled.aside`
   width: 18rem;
   height: 20rem;
   background: ${(props) => props.theme["black"]};
+  color: ${(props) => props.theme["white"]};
   border-radius: 0.8rem;
 
   overflow: hidden;

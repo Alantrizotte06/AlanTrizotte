@@ -10,6 +10,8 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["black"]};
 
   padding: 1.4rem 3.6rem;
+
+  margin-bottom: 3.6rem;
   nav {
     display: flex;
     gap: 2rem;
