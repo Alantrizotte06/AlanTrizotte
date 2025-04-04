@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileContainer = styled.aside`
-  position: fixed;
+  position: absolute;
   left: 3.6rem;
   width: 18rem;
   height: 20rem;
