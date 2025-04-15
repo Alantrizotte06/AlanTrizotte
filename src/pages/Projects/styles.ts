@@ -1,13 +1,9 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.main`
-  width: 62.5rem;
-  height: 43.75rem;
-  margin: 3.12rem 3.375rem 4.25rem 30rem;
-
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  flex-direction: column;
+  margin: 3.12rem 3.375rem 4.25rem 28rem;
 
   gap: 2rem;
 
@@ -20,36 +16,48 @@ export const ProjectsContainer = styled.main`
 `;
 
 export const CurrentProjects = styled.div`
-  margin-left: 5rem;
-`;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 
-export const AcademicsProjects = styled.div`
-  margin-left: 5rem;
+  div {
+    flex: 1 1 calc(40% - 1rem);
+    box-sizing: border-box;
+  }
 `;
 
 export const BoxProjects = styled.div`
-  width: 80%;
-  height: 8rem;
-  background: ${(props) => props.theme["black"]};
-  margin: 2rem;
+  flex: 1 1 calc(40% - 1rem);
+  max-width: calc(40% - 1rem); // Evita que ultrapasse
 
+  background: ${(props) => props.theme["black"]};
+  text-align: center;
   border-radius: 32px;
 
   h2 {
-    padding: 1rem 0 1.5rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+    padding: 0.5rem 2rem;
+    font-family: "Roboto";
   }
 `;
 
 export const ButtonProjects = styled.button`
-  width: 50%;
+  width: 10rem;
   height: 2rem;
   border-radius: 8px;
   background: ${(props) => props.theme["blue-400"]};
+  margin: 1rem;
 
   border: none;
 
   &:hover {
-    color: ${(props) => props.theme["blue-300"]};
+    transition: all 1.5s;
+    background: ${(props) => props.theme["blue-300"]};
   }
 
   a {
