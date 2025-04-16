@@ -13,6 +13,7 @@ const slideIn = keyframes`
 
 export const HomeContainer = styled.main`
   margin: 3.12rem 5rem 5rem 30rem;
+  border-radius: 2rem;
 
   font-family: "Roboto Mono";
   color: ${(props) => props.theme["white"]};

@@ -46,7 +46,7 @@ export const BoxProjects = styled.div`
 
   p {
     text-align: justify;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 2rem;
     font-family: "Roboto";
   }
 `;

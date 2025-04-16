@@ -20,7 +20,9 @@ export function Projects() {
             de API e também aprimoramento em styled components.
           </p>
           <ButtonProjects>
-            <a href="">Ir ao repositório</a>
+            <a href="https://github.com/Alantrizotte06/igniteTimer">
+              Ir ao repositório
+            </a>
           </ButtonProjects>
         </BoxProjects>
         <BoxProjects>
