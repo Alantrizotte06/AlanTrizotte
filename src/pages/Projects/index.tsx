@@ -32,7 +32,9 @@ export function Projects() {
             hooks.
           </p>
           <ButtonProjects>
-            <a href="">Ir ao repositório</a>
+            <a href="https://github.com/Alantrizotte06/toDoList_desafio">
+              Ir ao repositório
+            </a>
           </ButtonProjects>
         </BoxProjects>
         <BoxProjects>
@@ -43,7 +45,9 @@ export function Projects() {
             componentização, hooks e estado.
           </p>
           <ButtonProjects>
-            <a href="">Ir ao repositório</a>
+            <a href="https://github.com/Alantrizotte06/feedReact">
+              Ir ao repositório
+            </a>
           </ButtonProjects>
         </BoxProjects>
         <BoxProjects>
@@ -56,7 +60,9 @@ export function Projects() {
             página home para a página do filme selecionado.
           </p>
           <ButtonProjects>
-            <a href="">Ir ao repositório</a>
+            <a href="https://github.com/Diegotgagliardi/Projeto_PHP">
+              Ir ao repositório
+            </a>
           </ButtonProjects>
         </BoxProjects>
         <BoxProjects>
@@ -66,7 +72,9 @@ export function Projects() {
             como uma agência, criado apenas para teste de conhecimento.
           </p>
           <ButtonProjects>
-            <a href="">Ir ao repositório</a>
+            <a href="https://github.com/Alantrizotte06/Portfolio">
+              Ir ao repositório
+            </a>
           </ButtonProjects>
         </BoxProjects>
       </CurrentProjects>

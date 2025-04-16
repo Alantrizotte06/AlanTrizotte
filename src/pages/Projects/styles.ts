@@ -34,6 +34,11 @@ export const BoxProjects = styled.div`
   text-align: center;
   border-radius: 32px;
 
+  &:hover {
+    box-shadow: 0 0 1rem ${(props) => props.theme["blue-400"]};
+    transition: all 1s;
+  }
+
   h2 {
     padding: 1rem;
     text-align: center;
@@ -41,7 +46,7 @@ export const BoxProjects = styled.div`
 
   p {
     text-align: justify;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 4rem;
     font-family: "Roboto";
   }
 `;
@@ -58,6 +63,7 @@ export const ButtonProjects = styled.button`
   &:hover {
     transition: all 1.5s;
     background: ${(props) => props.theme["blue-300"]};
+    font-weight: bolder;
   }
 
   a {
